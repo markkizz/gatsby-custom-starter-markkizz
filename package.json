@@ -1,0 +1,69 @@
+{
+  "name": "gatsby-custom-starter-markkizz",
+  "private": true,
+  "description": "Custom starter for freelance work",
+  "version": "0.1.0",
+  "author": "Kittayot Pattanapara <mark.pattanapara@gmail.com>",
+  "dependencies": {
+    "@contentful/gatsby-transformer-contentful-richtext": "^13.1.0",
+    "@contentful/rich-text-html-renderer": "^13.4.0",
+    "babel-plugin-styled-components": "^1.10.7",
+    "dotenv": "^8.2.0",
+    "gatsby": "^2.20.12",
+    "gatsby-image": "^2.3.3",
+    "gatsby-plugin-antd": "^2.2.0",
+    "gatsby-plugin-google-analytics": "^2.2.3",
+    "gatsby-plugin-less": "^3.1.2",
+    "gatsby-plugin-manifest": "^2.3.3",
+    "gatsby-plugin-netlify": "^2.2.2",
+    "gatsby-plugin-netlify-cache": "^1.2.0",
+    "gatsby-plugin-offline": "^3.1.2",
+    "gatsby-plugin-react-helmet": "^3.2.2",
+    "gatsby-plugin-robots-txt": "^1.5.0",
+    "gatsby-plugin-sass": "^2.2.2",
+    "gatsby-plugin-sharp": "^2.5.3",
+    "gatsby-plugin-sitemap": "^2.3.3",
+    "gatsby-plugin-styled-components": "^3.2.2",
+    "gatsby-remark-copy-linked-files": "^2.2.2",
+    "gatsby-remark-images": "^3.2.3",
+    "gatsby-remark-images-anywhere": "^1.2.1",
+    "gatsby-remark-images-contentful": "^2.2.3",
+    "gatsby-remark-responsive-iframe": "^2.3.2",
+    "gatsby-source-contentful": "^2.2.8",
+    "gatsby-source-filesystem": "^2.2.3",
+    "gatsby-transformer-json": "^2.3.2",
+    "gatsby-transformer-remark": "^2.7.2",
+    "gatsby-transformer-sharp": "^2.4.5",
+    "less": "^3.11.1",
+    "lodash": "^4.17.15",
+    "node-sass": "^4.13.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^6.0.0",
+    "styled-components": "^5.1.0"
+  },
+  "devDependencies": {
+    "prettier": "2.0.4"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "dev": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
